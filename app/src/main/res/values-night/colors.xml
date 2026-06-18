@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Only override semantic colors — brand/button colors stay the same -->
+
+    <color name="backgroundcolor">#121212</color>
+    <color name="cardBackground">#1E1E1E</color>
+
+    <!-- All text colors go lighter in dark mode -->
+    <color name="textPrimary">#EEEEEE</color>
+    <color name="nameTxtColor">#EEEEEE</color>
+    <color name="lightBlack">#EEEEEE</color>
+    <color name="textSecondary">#AAAAAA</color>
+    <color name="courseTxtColor">#AAAAAA</color>
+    <color name="darkGrey">#AAAAAA</color>
+    <color name="greyTxt">#AAAAAA</color>
+    <color name="grey">#888888</color>
+    <color name="txtColor">#DDDDDD</color>
+
+    <!-- Dividers and chips go darker -->
+    <color name="dividerColor">#2C2C2C</color>
+    <color name="lightGrey">#2C2C2C</color>
+    <color name="chipDefault">#2C2C2C</color>
+</resources>

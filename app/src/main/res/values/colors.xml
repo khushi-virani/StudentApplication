@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base colors — never change -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#FF9800</color>
+    <color name="lightRed">#FF4D4D</color>
+    <color name="lightRedBg">#FF5252</color>
+    <color name="presentBtnBg">#E8F5E9</color>
+    <color name="presentBtnText">#2E7D32</color>
+    <color name="absentBtnBg">#FFEBEE</color>
+    <color name="absentBtnTxt">#C62828</color>
+    <color name="profileBg">#E8F0FE</color>
+
+    <!-- Semantic colors — light mode values -->
+    <!-- These are overridden in res/values-night/colors.xml for dark mode -->
+    <color name="backgroundcolor">#F5F6FA</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="textPrimary">#1A1A2E</color>
+    <color name="nameTxtColor">#1A1A2E</color>
+    <color name="lightBlack">#222222</color>
+    <color name="textSecondary">#777777</color>
+    <color name="courseTxtColor">#777777</color>
+    <color name="darkGrey">#555555</color>
+    <color name="greyTxt">#666666</color>
+    <color name="grey">#888888</color>
+    <color name="txtColor">#333333</color>
+    <color name="dividerColor">#E0E0E0</color>
+    <color name="lightGrey">#E0E0E0</color>
+    <color name="chipDefault">#FFFFFF</color>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.studentapplication.ui.home.HomeFragment"
+        android:label="@string/home_txt"/>
+
+    <fragment
+        android:id="@+id/studentsFragment"
+        android:name="com.example.studentapplication.ui.students.StudentsFragment"
+        android:label="@string/txt"/>
+
+    <fragment
+        android:id="@+id/addStudentFragment"
+        android:name="com.example.studentapplication.ui.addstudent.AddStudentFragment"
+        android:label="@string/add_stud"/>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.studentapplication.ui.profile.ProfileFragment"
+        android:label="@string/profile_txt"/>
+
+    <fragment
+        android:id="@+id/studentDetailFragment"
+        android:name="com.example.studentapplication.ui.detail.StudentDetailFragment"
+        android:label="@string/stud_detail" />
+
+    <fragment
+        android:id="@+id/editStudentFragment"
+        android:name="com.example.studentapplication.ui.detail.EditStudentFragment"
+        android:label="@string/edit_title" />
+
+    <fragment
+        android:id="@+id/attendanceFragment"
+        android:name="com.example.studentapplication.ui.attendance.AttendanceFragment"
+        android:label="@string/attendance_txt"/>
+
+    <!-- New: per-student attendance report screen -->
+    <!-- receives studentId, studentName, studentCourse from StudentDetailFragment -->
+    <fragment
+        android:id="@+id/studentAttendanceFragment"
+        android:name="com.example.studentapplication.ui.attendance.StudentAttendanceFragment"
+        android:label="@string/attendance_report">
+        <argument
+            android:name="studentId"
+            app:argType="integer"
+            android:defaultValue="-1"/>
+        <argument
+            android:name="studentName"
+            app:argType="string"
+            android:defaultValue=""/>
+        <argument
+            android:name="studentCourse"
+            app:argType="string"
+            android:defaultValue=""/>
+    </fragment>
+
+</navigation>

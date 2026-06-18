@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.StudentApplication"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/backgroundcolor</item>
+        <!--  false = white/light icons on dark status bar -->
+        <!-- your light theme has true = dark icons on light status bar -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+</resources>

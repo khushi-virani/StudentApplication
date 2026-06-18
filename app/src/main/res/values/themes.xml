@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base theme -->
+    <style name="Base.Theme.StudentApplication"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/backgroundcolor</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Add your base theme attributes here if needed -->
+    </style>
+
+    <!-- Main app theme -->
+    <style name="Theme.StudentApplication"
+        parent="Base.Theme.StudentApplication" />
+
+    <!-- NoActionBar theme for Splash -->
+    <style name="Theme.StudentApplication.NoActionBar"
+        parent="Theme.StudentApplication">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>
